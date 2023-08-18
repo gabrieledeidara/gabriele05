@@ -1,0 +1,28 @@
+.cabecalho{
+ background-color:var(--fundo-azul) ;
+ margin:0;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__imagem{
+width: 45px;
+height: 45px;
+}
+.container__titulo, .container__imagem, .container__frases{
+padding: 0,1em; color: white;
+}
+.container__titulo, .container__frases{
+    display: none;
+}
+.cx-texto{
+    display: flex; justify-content: center;
+}
+.texto-mobile{
+    display: block; font-size: 30px;
+    margin-top: 3em; padding: 1em;
+}
+.texto-desktop, .texto-tablet{
+    
+}
